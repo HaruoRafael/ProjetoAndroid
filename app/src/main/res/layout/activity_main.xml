@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Botão para listar alunos -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnListarAlunos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Alunos"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botão para cadastrar aluno -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCadastrarAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Aluno"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        android:textColor="@android:color/white" />
+</LinearLayout>
